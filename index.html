@@ -40,7 +40,7 @@
    overflow: hidde;
   }
   .bg-3 { 
-      background-color: white; /* White */
+      background-color: white; /* white */
       width: 100%;
       background-size: cover !important;
 	-webkit-background-size: cover !important;
@@ -75,6 +75,18 @@
     padding: 25px;
     margin: 5px;
 }
+      .button {
+    background-color: cornflowerblue;
+    border: none;
+    color: white;
+    padding: 10px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 2px 1px;
+}
+      .button1 {border-radius: 12px;}
   </style>
 </head>
 <body>
@@ -88,13 +100,14 @@
         <span class="icon-bar"></span>
         <span class="icon-bar"></span>                        
       </button>
-        <a class="navbar-brand" href="#"><font color="white">Drithiman.M</font></a>
+        <a class="navbar-brand" href="#"><font color="gold">Drithiman.M</font></a>
     </div>
     <div class="collapse navbar-collapse" id="myNavbar">
       <ul class="nav navbar-nav navbar-right">
-          <li><a href="#who"><font color="white">WHO</font></a></li>
-          <li><a href="#what"><font color="white">WHAT</font></a></li>
-          <li><a href="#works"><font color="white">WORKS</font></a></li>
+          <li><a href="#who"><font color="gold">WHO</font></a></li>
+          <li><a href="#what"><font color="gold">WHAT</font></a></li>
+          <li><a href="#works"><font color="gold">WORKS</font></a></li>
+          <li><a href="#fb"><font color="gold">FEEDBACK</font></a></li>
       </ul>
     </div>
   </div>
@@ -102,17 +115,16 @@
 
 <!-- First Container -->
 <div class="container-fluid bg-1 text-center">
-    <h3 id="who" class="margin"><font color="white">Who Am I?</font></h3>
+    <h3 id="who" class="margin"><font color="gold">Who Am I?</font></h3>
   <img src="images/Rpic.png" class="img-responsive img-circle margin" style="display:inline" alt="Bird" width="350" height="350">
-  <h3><font color="white">I'm Drithiman.M</font></h3>
-    <h4><font color="white">I Work On A Mac </font></h4>
+  <h3><font color="gold">I'm Drithiman.M</font></h3>
 </div>
 
 <!-- Second Container -->
 <div class="container-fluid bg-2 text-center">
-    <h3 id="what" class="margin"><font color="white">What Am I?</font></h3>
-    <h3><font color="white">I'm a <a>programmer</a>,<a>graphic designer</a>, <a>cinema editor</a> and <a>web designer</a>.</font></h3>
-  <a href="https://www.drithimanm.ml" class="glyphicon glyphicon-print btn btn-default btn-lg">Resume</a>
+    <h3 id="what" class="margin"><font color="gold">What Am I?</font></h3>
+    <h3><font color="gold">I'm a <a>programmer</a>,<a>graphic designer</a>, <a>cinema editor</a> and <a>web designer</a>.</font></h3>
+  <a href="https://www.drithimanm.ml"><button class="button button1">CLICK HERE</button></a>
 </div>
     <!-- Third Container -->
 <div class="container-fluid bg-3 text-center">    
@@ -149,11 +161,13 @@
           <iframe src="https://www.youtube.com/embed/2JmrvD8OtLg?autoplay=0"
                   width="100%" height="380" frameborder="no" scrolling="no">
           </iframe>
-          <div class="col-sm-12"> 
-              <br>
-              <strong><h3>Please Help Me Make The UX Better!</h3></strong>
           <br>
-      <iframe src="https://docs.google.com/forms/d/e/1FAIpQLSejlt22inxbvfTy_tTwceE8UvkLZaejWHxEa94u6rKnUkaOSg/viewform?embedded=true" width="100%" height="500" frameborder="0" marginheight="0" marginwidth="0">Loading...</iframe>
+          <br>
+          <br>
+          <div class="container-fluid bg-4 text-center">
+    <h3 id="fb" class="margin"><font color="gold">Feedback</font></h3>
+          <br>
+      <iframe src="https://docs.google.com/forms/d/e/1FAIpQLSejlt22inxbvfTy_tTwceE8UvkLZaejWHxEa94u6rKnUkaOSg/viewform?embedded=true" width="100%" height="700" frameborder="0" marginheight="0" marginwidth="0">Loading...</iframe>
       </div>
    </div> 
   </div>
@@ -163,6 +177,9 @@
 <!-- Footer -->
 <footer class="container-fluid bg-4 text-center">
     <p>Design By <font color="gold" type="bold">DRITHIMAN M</font></p> 
+    <p>Copyright © 2017 <font color="gold" type="bold"> RAZORSOFT Inc. All rights reserved. </font></p>
+    <a target="_blank" id="view-source" class="mdl-button mdl-js-button mdl-button--raised mdl-js-ripple-effect mdl-color--accent mdl-color-text--accent-contrast">DR3MAN</a>
+    <script src="https://code.getmdl.io/1.3.0/material.min.js"></script>
 </footer>
 
 </body>
